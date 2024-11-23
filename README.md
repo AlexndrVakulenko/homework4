@@ -1,7 +1,7 @@
 # homework4
 Работа с RAID
 
-Vagrantfile разворачивает box Centos7, добавляет 7 дисков в vm. 
+Vagrantfile разворачивает box Centos7, добавляет 7 дисков по 100 Mb в vm. 
 Т.к Образ не содержит утилиту mdadm включен bridget адаптер для установки утилиты и сопутствующих пакетов:
 box.vm.network "public_network", type: "dhcp", adapter: 2 
 
